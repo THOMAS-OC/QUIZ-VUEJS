@@ -1,0 +1,53 @@
+body {
+    background-color: #D2DFF4;
+    font-family: sans-serif;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+h1 span {
+    font-weight: bold;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 20px auto;
+    height: 200px;
+    width: 800px;
+    max-width: 90vw;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    box-shadow: 0px 3px 10px rgb(189, 189, 189);
+}
+
+.question {
+    width: 100%;
+}
+
+label {
+    width: 95%;
+    height: 20px;
+}
+
+input {
+    height: 20px;
+    width: 3%;
+}
+
+button {
+    display: block;
+    margin: 50px auto;
+    width: 200px;
+    height: 60px;
+    background-color: #F1F1F1;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
