@@ -27,17 +27,29 @@ article {
     box-shadow: 0px 3px 10px rgb(189, 189, 189);
 }
 
+.article-red {
+    background-color: rgb(255, 81, 81);
+}
+
+.article-green {
+    background-color: rgb(58, 216, 58);
+}
+
 .question {
     width: 100%;
+    font-weight: bold;
 }
 
 label {
+    margin: 0;
+    margin-left: 3px;
     width: 95%;
-    height: 20px;
+    height: 15px;
 }
 
 input {
-    height: 20px;
+    margin: 0;
+    height: 15px;
     width: 3%;
 }
 
@@ -50,4 +62,16 @@ button {
     font-weight: bold;
     cursor: pointer;
     border-radius: 3px;
+}
+
+.score{
+    text-align: center;
+    font-size: 25px;
+    width: 800px;
+    height: 200px;
+    display: none;
+}
+
+.show{
+    display: block;
 }
